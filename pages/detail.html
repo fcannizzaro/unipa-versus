@@ -1,0 +1,85 @@
+<div class="grey lighten-3 pad-top">
+      <div class="row s12">
+       <div class="col s12 m6">
+            <div ng-mouseleave="active['docenza'] = null" class="card-panel hoverable">
+                <h4>Docenza</h4>
+                <div class="graph">
+                      <ng-include src="'pages/graph-levels'"></ng-include>
+                      <div class="bars">
+                            <div class="bar"
+                            ng-mouseover="active['docenza'] = $index"
+                            ng-repeat="(v,bar) in prof.domande.docenza"
+                            ng-class="active['docenza'] == $index ? 'active' : ''">
+                            <ng-include src="'pages/graph-bar-inside'"></ng-include></div>
+                      </div>
+                </div>
+                <ul class="collection">
+                    <li ng-if="active['docenza'] == null" class="collection-item">Passa il mouse / Fai un tap su una barra per mostrare la domanda corrispondente</li>
+                    <li ng-if="active['docenza'] == $index" ng-repeat="(v,bar) in prof.domande.docenza" class="collection-item">
+                          <ng-include src="'pages/question-inside'"></ng-include>
+                    </li>
+          </ul>
+    </div>
+</div>
+<div class="col s12 m6">
+      <div ng-mouseleave="active['insegnamento'] = null"  class="card-panel hoverable">
+            <h4>Insegnamento</h4>
+            <div class="graph">
+                <ng-include src="'pages/graph-levels'"></ng-include>
+                <div class="bars">
+                      <div class="bar"
+                      ng-mouseover="active['insegnamento'] = $index"
+                      ng-repeat="(v,bar) in prof.domande.insegnamento"
+                      ng-class="active['insegnamento'] == $index ? 'active' : ''">
+                      <ng-include src="'pages/graph-bar-inside'"></ng-include></div>
+                </div>
+          </div>
+          <ul class="collection">
+             <li ng-if="active['insegnamento'] == null" class="collection-item">Passa il mouse / Fai un tap su una barra per mostrare la domanda corrispondente</li>
+             <li ng-if="active['insegnamento'] == $index" ng-repeat="(v,bar) in prof.domande.insegnamento" class="collection-item">
+                <ng-include src="'pages/question-inside'"></ng-include>
+            </li>
+         </ul>
+    </div>
+</div>
+<div class="col s12 m6">
+      <div ng-mouseleave="active['suggerimenti'] = null" class="card-panel hoverable">
+            <h4>Suggerimenti</h4>
+            <div class="graph">
+                <ng-include src="'pages/graph-levels'"></ng-include>
+                <div class="bars">
+                      <div ng-class="active['suggerimenti'] == $index ? 'active' : ''"
+                      ng-mouseover="active['suggerimenti'] = $index"
+                      ng-repeat="(v,bar) in prof.domande.suggerimenti" class="bar">
+                      <div class="l-grey" style="{{getHeight(bar.non_rispondo)}}"></div>
+                      <div class="l-orange" style="{{getHeight(bar.si)}}"></div>
+                      <div class="l-yellow" style="{{getHeight(bar.no)}}"></div>
+                </div>
+          </div>
+    </div>
+    <ul class="collection">
+        <li ng-if="active['suggerimenti'] == null" class="collection-item">Passa il mouse / Fai un tap su una barra per mostrare la domanda corrispondente</li>
+        <li ng-if="active['suggerimenti'] == $index" ng-repeat="(v,bar) in prof.domande.suggerimenti" class="collection-item">
+              <ng-include src="'pages/question-inside'"></ng-include>
+        </li>
+  </ul>
+</div>
+</div>
+<div class="col s12 m6">
+      <div class="card-panel interesse hoverable">
+        <h4>Interesse</h4>
+        <div ng-repeat="(v,bar) in prof.domande.interesse" class="bar">
+              <div ng-if="bar.decisamente_si > 0" class="l-green" style="{{getWidth(bar.decisamente_si)}}"></div>
+              <div ng-if="bar.piu_si_che_no > 0" class="l-almost-green" style="{{getWidth(bar.piu_si_che_no)}}"></div>
+              <div ng-if="bar.piu_no_che_si > 0" class="l-almost-red" style="{{getWidth(bar.piu_no_che_si)}}"></div>
+              <div ng-if="bar.decisamente_no > 0" class="l-red" style="{{getWidth(bar.decisamente_no)}}"></div>
+              <div ng-if="bar.non_rispondo > 0" class="l-grey" style="{{getWidth(bar.non_rispondo)}}"></div>
+        </div>
+        <ul class="collection">
+              <li ng-repeat="(v,bar) in prof.domande.interesse" class="collection-item">
+                    <ng-include src="'pages/question-inside'"></ng-include>
+              </li>
+        </ul>
+  </div>
+</div>
+</div>

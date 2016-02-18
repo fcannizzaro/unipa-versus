@@ -1,0 +1,28 @@
+<div class="grey lighten-3 pad-top">
+  <div class="card-panel" ng-repeat="(question, bar) in prof.domande.docenza">
+    <h5>{{question}}</h5>
+    <div ng-init="bar.c = compare.domande.docenza[question]" class="row">
+      <div class="col s12 m6 h-bar">
+        <strong>{{prof.docente}}</strong>
+        <ng-include src="'pages/graph-bar-compare'"></ng-include>
+      </div>
+      <div class="col s12 m6 h-bar">
+        <strong>{{compare.docente}}</strong>
+        <ng-include src="'pages/graph-bar-compare-two'"></ng-include>
+      </div>
+    </div>
+  </div>
+  <div class="card-panel" ng-repeat="(question, bar) in prof.domande.insegnamento">
+    <h5>{{question}}</h5>
+    <div ng-init="bar.c = compare.domande.insegnamento[question]" class="row">
+      <div class="col s12 m6 h-bar">
+        <strong>{{prof.docente}}</strong>
+        <ng-include src="'pages/graph-bar-compare'"></ng-include>
+      </div>
+      <div class="col s12 m6 h-bar">
+        <strong>{{compare.docente}}</strong>
+        <ng-include src="'pages/graph-bar-compare-two'"></ng-include>
+      </div>
+    </div>
+  </div>
+</div>

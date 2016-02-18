@@ -1,0 +1,118 @@
+{
+    "materia": "05880 - PROGRAMMAZIONE E LABORATORIO C.I.",
+    "docente": "CASTIGLIONE GIUSEPPA",
+    "cfu": 6,
+    "questionari": 43,
+    "domande": {
+        "docenza": {
+            "GLI ORARI DI SVOLGIMENTO DI LEZIONI, ESERCITAZIONI E ALTRE EVENTUALI ATTIVITÀ DIDATTICHE SONO RISPETTATI": {
+                "decisamente_si": 55.81,
+                "decisamente_no": 0,
+                "piu_si_che_no": 34.88,
+                "piu_no_che_si": 4.65
+            },
+            "IL DOCENTE STIMOLA/MOTIVA L'INTERESSE VERSO LA DISCIPLINA": {
+                "decisamente_si": 48.84,
+                "decisamente_no": 0,
+                "piu_si_che_no": 44.19,
+                "piu_no_che_si": 0
+            },
+            "IL DOCENTE ESPONE GLI ARGOMENTI IN MODO CHIARO": {
+                "decisamente_si": 51.16,
+                "decisamente_no": 0,
+                "piu_si_che_no": 41.86,
+                "piu_no_che_si": 2.33
+            },
+            "LE ATTIVITÀ DIDATTICHE INTEGRATIVE SONO UTILI ALL’APPRENDIMENTO DELLA MATERIA": {
+                "decisamente_si": 65.12,
+                "decisamente_no": 0,
+                "piu_si_che_no": 25.58,
+                "piu_no_che_si": 0
+            },
+            "L'INSEGNAMENTO E' STATO SVOLTO IN MANIERA COERENTE CON QUANTO DICHIARATO SUL SITO WEB DEL CORSO DI STUDIO": {
+                "decisamente_si": 55.81,
+                "decisamente_no": 0,
+                "piu_si_che_no": 32.56,
+                "piu_no_che_si": 2.33
+            },
+            "IL DOCENTE E' REPERIBILE PER CHIARIMENTI E SPIEGAZIONI": {
+                "decisamente_si": 51.16,
+                "decisamente_no": 0,
+                "piu_si_che_no": 23.26,
+                "piu_no_che_si": 11.63
+            }
+        },
+        "insegnamento": {
+            "LE CONOSCENZE PRELIMINARI POSSEDUTE SONO RISULTATE SUFFICIENTI PER LA COMPRENSIONE DEGLI ARGOMENTI PREVISTI NEL PROGRAMMA D'ESAME": {
+                "decisamente_si": 37.21,
+                "decisamente_no": 4.65,
+                "piu_si_che_no": 39.53,
+                "piu_no_che_si": 9.3
+            },
+            "IL CARICO DI STUDIO DELL'INSEGNAMENTO È PROPORZIONATO AI CREDITI ASSEGNATI": {
+                "decisamente_si": 62.79,
+                "decisamente_no": 0,
+                "piu_si_che_no": 30.23,
+                "piu_no_che_si": 2.33
+            },
+            "IL MATERIALE DIDATTICO E' ADEGUATO PER LO STUDIO DELLA MATERIA": {
+                "decisamente_si": 58.14,
+                "decisamente_no": 0,
+                "piu_si_che_no": 27.91,
+                "piu_no_che_si": 2.33
+            },
+            "LE MODALITA' DI ESAME SONO STATE DEFINITE IN MODO CHIARO": {
+                "decisamente_si": 60.47,
+                "decisamente_no": 0,
+                "piu_si_che_no": 25.58,
+                "piu_no_che_si": 6.98
+            }
+        },
+        "interesse": {
+            "E' INTERESSATO/A AGLI ARGOMENTI TRATTATI NELL'INSEGNAMENTO": {
+                "decisamente_si": 88.37,
+                "decisamente_no": 0,
+                "piu_si_che_no": 6.98,
+                "piu_no_che_si": 2.33
+            }
+        },
+        "suggerimenti": {
+            "ALLEGGERIRE IL CARICO DIDATTICO COMPLESSIVO": {
+                "si": 20.93,
+                "no": 62.79
+            },
+            "AUMENTARE L'ATTIVITA' DI SUPPORTO DIDATTICO": {
+                "si": 48.84,
+                "no": 32.56
+            },
+            "FORNIRE PIU' CONOSCENZE DI BASE": {
+                "si": 53.49,
+                "no": 30.23
+            },
+            "ELIMINARE DAL PROGRAMMA ARGOMENTI GIA' TRATTATI IN ALTRI INSEGNAMENTI": {
+                "si": 25.58,
+                "no": 60.47
+            },
+            "MIGLIORARE IL COORDINAMENTO CON ALTRI INSEGNAMENTI": {
+                "si": 39.53,
+                "no": 39.53
+            },
+            "MIGLIORARE LA QUALITA' DEL MATERIALE DIDATTICO": {
+                "si": 48.84,
+                "no": 27.91
+            },
+            "FORNIRE IN ANTICIPO IL MATERIALE DIDATTICO": {
+                "si": 62.79,
+                "no": 13.95
+            },
+            "INSERIRE PROVE D’ESAME INTERMEDIE": {
+                "si": 69.77,
+                "no": 13.95
+            },
+            "ATTIVARE INSEGNAMENTI SERALI O NEL FINE SETTIMANA": {
+                "si": 23.26,
+                "no": 60.47
+            }
+        }
+    }
+}

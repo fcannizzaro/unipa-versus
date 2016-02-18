@@ -1,0 +1,214 @@
+.breadcrumb-pad{
+    padding-left: 16px;
+}
+
+.brand-logo{
+    font-size: 20px !important;
+}
+
+.breadcrumb-pad .col{
+    text-align: left !important;
+}
+
+.collection{
+    border: none;
+}
+
+.avatar a:hover:before{
+    content: '>';
+    transition: all .3s;
+    position: absolute;
+    margin-left: -12px;
+    font-weight: 600;
+}
+
+.avatar a:hover{
+    transition: all .3s;
+    padding-left: 16px;
+    font-weight: 600;
+}
+
+/* GRAPH */
+.graph{
+    height: 250px;
+    background: #f4f4f4;
+    position: relative;
+    border-left: 1px solid rgba(0,0,0,.5);
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    margin-left: 42px;
+}
+
+.bars{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.interesse .bar{
+    width: 100%;
+    color: #fff;
+    height: auto;
+}
+
+.interesse .bar div{
+    margin-bottom: 16px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.bar{
+    height: 100%;
+    width: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: bottom;
+}
+
+.bar div{
+    width: 100%;
+}
+
+.h-bar{
+    text-align: left !important;
+}
+
+.withLabel{
+     margin-top: 4px;
+     margin-bottom: 4px;
+ }
+
+.withLabel div{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.withLabel div:nth-child(1){
+    vertical-align: top;
+    width: 56px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 0px;
+}
+
+.h-bar div{
+    height: 24px;
+}
+
+.l-red{
+    background: #B71C1C;
+}
+.l-almost-red{
+    background: #F44336;
+}
+.l-almost-green{
+    background: #66BB6A;
+}
+.l-green{
+    background: #388E3C;
+}
+.l-grey{
+    background: #E0E0E0;
+}
+.l-orange{
+    background: #3F51B5;
+}
+.l-yellow{
+    background: #009688;
+}
+/* GRAPH LEVELS */
+
+.graph-levels div{
+    position: absolute;
+    left: -42px;
+    font-size: 14px;
+    text-align: right;
+    width: 34px;
+    margin-bottom: -14px;
+}
+.graph-levels div:nth-child(1){ bottom: 10%; }
+.graph-levels div:nth-child(2){ bottom: 20%; }
+.graph-levels div:nth-child(3){ bottom: 30%; }
+.graph-levels div:nth-child(4){ bottom: 40%; }
+.graph-levels div:nth-child(5){ bottom: 50%; }
+.graph-levels div:nth-child(6){ bottom: 60%; }
+.graph-levels div:nth-child(7){ bottom: 70%; }
+.graph-levels div:nth-child(8){ bottom: 80%; }
+.graph-levels div:nth-child(9){ bottom: 90%; }
+.graph-levels div:nth-child(10){ bottom: 100%; }
+
+.col{
+    text-align: center;
+}
+
+.card-panel{
+    width: auto !important;
+    position: relative;
+}
+
+.card-panel h4,
+.card-panel h5{
+    margin: 0px;
+    font-size: 24px;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+
+.card-panel h5{
+    font-size: 20px;
+}
+
+.card-panel:not(.interesse):hover .bar{
+    opacity: 0.6;
+}
+
+.card-panel:hover .bar.active{
+    opacity: 1;
+}
+
+.card-panel .collection-item{
+    text-align: left;
+    font-weight: 500;
+}
+
+.card-panel .collection-item:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+.pad-top{
+    padding-top: 8px;
+}
+
+.row{
+    margin: 0px;
+}
+
+.c-square{
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.brand-logo small{
+    opacity: 0.6;
+}
+
+/* SQUARE */
+
+.square{
+    display: inline-block;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.c-square div:not(.square){
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.materia-chooser{
+    cursor: pointer;
+}

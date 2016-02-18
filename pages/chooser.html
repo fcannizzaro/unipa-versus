@@ -1,0 +1,9 @@
+<ul class="collection">
+    <li ng-cloak ng-repeat="prof in list['Informatica']" class="collection-item avatar">
+        <img src="{{::getFoto(prof.id)}}" class="circle">
+        <span class="title" ng-bind="prof.nome"></span>
+        <p>
+           <div ng-repeat="materia in prof.materie"><a ng-click="view == 0 ? loadProf(materia.id) : loadConfronto(materia.id)" class="materia-chooser grey-text text-darken-2" ng-bind="materia.nome"></a><br></div>
+       </p>
+   </li>
+</ul>

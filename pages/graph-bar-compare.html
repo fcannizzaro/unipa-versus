@@ -1,0 +1,5 @@
+  <div ng-if="bar.decisamente_no > 0" class="withLabel"><div>{{bar.decisamente_no}}%</div><div class="l-red" style="{{getWidthM(bar.decisamente_no)}}"></div></div>
+  <div ng-if="bar.piu_no_che_si > 0" class="withLabel"><div>{{bar.piu_no_che_si}}%</div><div class="l-almost-red" style="{{getWidthM(bar.piu_no_che_si)}}"></div></div>
+  <div ng-if="bar.piu_si_che_no > 0" class="withLabel"><div>{{bar.piu_si_che_no}}%</div><div class="l-almost-green" style="{{getWidthM(bar.piu_si_che_no)}}"></div></div>
+  <div ng-if="bar.decisamente_si > 0" class="withLabel"><div>{{bar.decisamente_si}}%</div><div class="l-green" style="{{getWidthM(bar.decisamente_si)}}"></div></div>
+  <div ng-if="bar.non_rispondo > 0" class="withLabel"><div>{{bar.non_rispondo}}%</div><div class="l-grey" style="{{getWidthM(bar.non_rispondo)}}"></div></div>

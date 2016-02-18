@@ -1,0 +1,117 @@
+{
+	"Informatica": [
+		{
+			"nome": "Antonio Restivo",
+			"materie": [
+				{
+					"nome": "Informatica Teorica",
+					"id": "21190"
+                }
+            ]
+        },
+		{
+			"nome": "Calogero Vetro",
+			"id": "152558",
+			"materie": [
+				{
+					"nome": "Calcolo Numerico",
+					"id": "21175"
+                }
+            ]
+        },
+		{
+			"nome": "Cesare Fabio Valenti",
+			"materie": [
+				{
+					"nome": "Analisi di Immagini",
+					"id": "21193"
+                }
+            ]
+        },
+		{
+			"nome": "Francesco Tschinke",
+			"materie": [
+				{
+					"nome": "Analisi Matematica 2",
+					"id": "21188"
+                }
+            ]
+        },
+		{
+			"nome": "Gabriele Fici",
+			"id": "163575",
+			"materie": [
+				{
+					"nome": "Linguaggi di Programmazione",
+					"id": "21182"
+                }
+            ]
+        },
+		{
+			"nome": "Giovannni Peres",
+			"materie": [
+				{
+					"nome": "Fisica 1 Meccanica del Punto",
+					"id": "21174"
+                }
+            ]
+        },
+		{
+			"nome": "Giuseppa Castiglione",
+			"id": "158923",
+			"materie": [
+				{
+					"nome": "Programmazione e Laboratorio C.I. (Modulo 1)",
+					"id": "21192"
+                }
+            ]
+        },
+		{
+			"nome": "Marinella Sciortino",
+			"id": "152285",
+			"materie": [
+				{
+					"nome": "Compilatori",
+					"id": "21180"
+                },
+				{
+					"nome": "Programmazione e Laboratorio C.I. (Modulo 2)",
+					"id": "21173"
+                }
+            ]
+        },
+		{
+			"nome": "Sabrina Mantaci",
+			"id": "162231",
+			"materie": [
+				{
+					"nome": "Metodi Matematici per l informatica (MMI)",
+					"id": "21178"
+                },
+				{
+					"nome": "Basi di Dati",
+					"id": "21189"
+                }
+            ]
+        },
+		{
+			"nome": "Simona Ester Rombo",
+			"id": "153198",
+			"materie": [
+				{
+					"nome": "Big Data Management",
+					"id": "20900"
+                }
+            ]
+        },
+		{
+			"nome": "Valeria Ricci",
+			"materie": [
+				{
+					"nome": "Analisi Matematica 1",
+					"id": "21172"
+                }
+            ]
+        }
+    ]
+}

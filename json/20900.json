@@ -1,0 +1,118 @@
+{
+    "materia": "17393 - BIG DATA MANAGEMENT",
+    "docente": "ROMBO SIMONA ESTER",
+    "cfu": 6,
+    "questionari": 16,
+    "domande": {
+        "docenza": {
+            "GLI ORARI DI SVOLGIMENTO DI LEZIONI, ESERCITAZIONI E ALTRE EVENTUALI ATTIVITÀ DIDATTICHE SONO RISPETTATI": {
+                "decisamente_si": 43.75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 50,
+                "piu_no_che_si": 6.25
+            },
+            "IL DOCENTE STIMOLA/MOTIVA L'INTERESSE VERSO LA DISCIPLINA": {
+                "decisamente_si": 37.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 43.75,
+                "piu_no_che_si": 12.5
+            },
+            "IL DOCENTE ESPONE GLI ARGOMENTI IN MODO CHIARO": {
+                "decisamente_si": 43.75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 50,
+                "piu_no_che_si": 6.25
+            },
+            "LE ATTIVITÀ DIDATTICHE INTEGRATIVE SONO UTILI ALL’APPRENDIMENTO DELLA MATERIA": {
+                "decisamente_si": 25,
+                "decisamente_no": 0,
+                "piu_si_che_no": 37.5,
+                "piu_no_che_si": 31.25
+            },
+            "L'INSEGNAMENTO E' STATO SVOLTO IN MANIERA COERENTE CON QUANTO DICHIARATO SUL SITO WEB DEL CORSO DI STUDIO": {
+                "decisamente_si": 50,
+                "decisamente_no": 0,
+                "piu_si_che_no": 37.5,
+                "piu_no_che_si": 0
+            },
+            "IL DOCENTE E' REPERIBILE PER CHIARIMENTI E SPIEGAZIONI": {
+                "decisamente_si": 93.75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 6.25,
+                "piu_no_che_si": 0
+            }
+        },
+        "insegnamento": {
+            "LE CONOSCENZE PRELIMINARI POSSEDUTE SONO RISULTATE SUFFICIENTI PER LA COMPRENSIONE DEGLI ARGOMENTI PREVISTI NEL PROGRAMMA D'ESAME": {
+                "decisamente_si": 68.75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 31.25,
+                "piu_no_che_si": 0
+            },
+            "IL CARICO DI STUDIO DELL'INSEGNAMENTO È PROPORZIONATO AI CREDITI ASSEGNATI": {
+                "decisamente_si": 43.75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 31.25,
+                "piu_no_che_si": 25
+            },
+            "IL MATERIALE DIDATTICO E' ADEGUATO PER LO STUDIO DELLA MATERIA": {
+                "decisamente_si": 25,
+                "decisamente_no": 0,
+                "piu_si_che_no": 62.5,
+                "piu_no_che_si": 6.25
+            },
+            "LE MODALITA' DI ESAME SONO STATE DEFINITE IN MODO CHIARO": {
+                "decisamente_si": 100,
+                "decisamente_no": 0,
+                "piu_si_che_no": 0,
+                "piu_no_che_si": 0
+            }
+        },
+        "interesse": {
+            "E' INTERESSATO/A AGLI ARGOMENTI TRATTATI NELL'INSEGNAMENTO": {
+                "decisamente_si": 62.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 37.5,
+                "piu_no_che_si": 0
+            }
+        },
+        "suggerimenti": {
+            "ALLEGGERIRE IL CARICO DIDATTICO COMPLESSIVO": {
+                "si": 0,
+                "no": 62.5
+            },
+            "AUMENTARE L'ATTIVITA' DI SUPPORTO DIDATTICO": {
+                "si": 81.25,
+                "no": 12.5
+            },
+            "FORNIRE PIU' CONOSCENZE DI BASE": {
+                "si": 18.75,
+                "no": 81.25
+            },
+            "ELIMINARE DAL PROGRAMMA ARGOMENTI GIA' TRATTATI IN ALTRI INSEGNAMENTI": {
+                "si": 6.25,
+                "no": 75
+            },
+            "MIGLIORARE IL COORDINAMENTO CON ALTRI INSEGNAMENTI": {
+                "si": 31.25,
+                "no": 56.25
+            },
+            "MIGLIORARE LA QUALITA' DEL MATERIALE DIDATTICO": {
+                "si": 62.5,
+                "no": 18.75
+            },
+            "FORNIRE IN ANTICIPO IL MATERIALE DIDATTICO": {
+                "si": 75,
+                "no": 12.5
+            },
+            "INSERIRE PROVE D’ESAME INTERMEDIE": {
+                "si": 0,
+                "no": 81.25
+            },
+            "ATTIVARE INSEGNAMENTI SERALI O NEL FINE SETTIMANA": {
+                "si": 0,
+                "no": 81.25
+            }
+        }
+    }
+}

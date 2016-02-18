@@ -1,0 +1,118 @@
+{
+    "materia": "09474 - ANALISI DI IMMAGINI",
+    "docente": "VALENTI CESARE FABIO",
+    "cfu": 6,
+    "questionari": 8,
+    "domande": {
+        "docenza": {
+            "GLI ORARI DI SVOLGIMENTO DI LEZIONI, ESERCITAZIONI E ALTRE EVENTUALI ATTIVITÀ DIDATTICHE SONO RISPETTATI": {
+                "decisamente_si": 75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 25,
+                "piu_no_che_si": 0
+            },
+            "IL DOCENTE STIMOLA/MOTIVA L'INTERESSE VERSO LA DISCIPLINA": {
+                "decisamente_si": 37.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 50,
+                "piu_no_che_si": 12.5
+            },
+            "IL DOCENTE ESPONE GLI ARGOMENTI IN MODO CHIARO": {
+                "decisamente_si": 62.5,
+                "decisamente_no": 12.5,
+                "piu_si_che_no": 12.5,
+                "piu_no_che_si": 12.5
+            },
+            "LE ATTIVITÀ DIDATTICHE INTEGRATIVE SONO UTILI ALL’APPRENDIMENTO DELLA MATERIA": {
+                "decisamente_si": 37.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 12.5,
+                "piu_no_che_si": 37.5
+            },
+            "L'INSEGNAMENTO E' STATO SVOLTO IN MANIERA COERENTE CON QUANTO DICHIARATO SUL SITO WEB DEL CORSO DI STUDIO": {
+                "decisamente_si": 62.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 37.5,
+                "piu_no_che_si": 0
+            },
+            "IL DOCENTE E' REPERIBILE PER CHIARIMENTI E SPIEGAZIONI": {
+                "decisamente_si": 75,
+                "decisamente_no": 0,
+                "piu_si_che_no": 12.5,
+                "piu_no_che_si": 0
+            }
+        },
+        "insegnamento": {
+            "LE CONOSCENZE PRELIMINARI POSSEDUTE SONO RISULTATE SUFFICIENTI PER LA COMPRENSIONE DEGLI ARGOMENTI PREVISTI NEL PROGRAMMA D'ESAME": {
+                "decisamente_si": 37.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 25,
+                "piu_no_che_si": 37.5
+            },
+            "IL CARICO DI STUDIO DELL'INSEGNAMENTO È PROPORZIONATO AI CREDITI ASSEGNATI": {
+                "decisamente_si": 62.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 12.5,
+                "piu_no_che_si": 25
+            },
+            "IL MATERIALE DIDATTICO E' ADEGUATO PER LO STUDIO DELLA MATERIA": {
+                "decisamente_si": 25,
+                "decisamente_no": 12.5,
+                "piu_si_che_no": 25,
+                "piu_no_che_si": 37.5
+            },
+            "LE MODALITA' DI ESAME SONO STATE DEFINITE IN MODO CHIARO": {
+                "decisamente_si": 87.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 12.5,
+                "piu_no_che_si": 0
+            }
+        },
+        "interesse": {
+            "E' INTERESSATO/A AGLI ARGOMENTI TRATTATI NELL'INSEGNAMENTO": {
+                "decisamente_si": 87.5,
+                "decisamente_no": 0,
+                "piu_si_che_no": 12.5,
+                "piu_no_che_si": 0
+            }
+        },
+        "suggerimenti": {
+            "ALLEGGERIRE IL CARICO DIDATTICO COMPLESSIVO": {
+                "si": 12.5,
+                "no": 75
+            },
+            "AUMENTARE L'ATTIVITA' DI SUPPORTO DIDATTICO": {
+                "si": 75,
+                "no": 12.5
+            },
+            "FORNIRE PIU' CONOSCENZE DI BASE": {
+                "si": 50,
+                "no": 37.5
+            },
+            "ELIMINARE DAL PROGRAMMA ARGOMENTI GIA' TRATTATI IN ALTRI INSEGNAMENTI": {
+                "si": 25,
+                "no": 62.5
+            },
+            "MIGLIORARE IL COORDINAMENTO CON ALTRI INSEGNAMENTI": {
+                "si": 62.5,
+                "no": 12.5
+            },
+            "MIGLIORARE LA QUALITA' DEL MATERIALE DIDATTICO": {
+                "si": 75,
+                "no": 12.5
+            },
+            "FORNIRE IN ANTICIPO IL MATERIALE DIDATTICO": {
+                "si": 50,
+                "no": 25
+            },
+            "INSERIRE PROVE D’ESAME INTERMEDIE": {
+                "si": 50,
+                "no": 25
+            },
+            "ATTIVARE INSEGNAMENTI SERALI O NEL FINE SETTIMANA": {
+                "si": 0,
+                "no": 75
+            }
+        }
+    }
+}

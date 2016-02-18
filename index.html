@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="unipa">
+<head>
+  <meta charset="utf-8"/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/FrancisCan/UnipaVersus/gh-pages/preview.png"/>
+  <meta property="og:title" content="Unipa Versus"/>
+  <meta property="og:description" content="Mostra/Confronta i risultati dei questionari unipa 2014"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Unipa Versus</title>
+  <meta name="theme-color" content="#3f51b5">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="ctrl" class="white">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper indigo">
+        <a href="#" class="brand-logo center">{{getTitle()}}</a>
+        <ul id="nav-mobile" class="left">
+          <li ng-if="view != 0"><a ng-click="back()"><i class="material-icons">arrow_back</i></a></li>
+          <li ng-if="view == 0"><a target="_blank" href="https://github.com/FrancisCan/UnipaVersus"><i class="material-icons">code</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <nav ng-if="view == 1">
+    <div class="nav-wrapper indigo breadcrumb-pad">
+      <div class="col s12">
+        <a class="breadcrumb" ng-bind="prof.materia"></a>
+        <a class="breadcrumb" ng-bind="prof.questionari + ' questionari'"></a>
+      </div>
+    </div>
+  </nav>
+
+  <ng-switch on="view">
+  <div ng-switch-when="0"><ng-include  src="'pages/chooser'"></ng-include></div>
+  <div ng-switch-when="1"><ng-include  src="'pages/detail'"></ng-include></div>
+  <div ng-switch-when="2"><ng-include  src="'pages/chooser'"></ng-include></div>
+  <div ng-switch-when="3"><ng-include  src="'pages/compare'"></ng-include></div>
+</ng-switch>
+
+<div ng-if="view == 1" class="fixed-action-btn" style="bottom: 24px; right: 24px;">
+  <a ng-click="openChooser()" title="Confronta con" class="btn-floating btn-large pink accent-3">
+    <i class="large material-icons">swap_horiz</i>
+  </a>
+</div>
+
+</body>
+</html>
+
